@@ -1,6 +1,11 @@
+import { useState } from 'react';
 import { Mail, Clock, ShieldAlert, MapPin, Phone } from 'lucide-react';
 
 export default function Contact() {
+  const [showAddress, setShowAddress] = useState(false);
+  const [showPhone, setShowPhone] = useState(false);
+  const [showEmail, setShowEmail] = useState(false);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 animate-fadeIn">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
@@ -21,7 +26,16 @@ export default function Contact() {
               </div>
               <div>
                 <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Office Address</span>
-                <span className="block text-slate-700 font-semibold">664 Bard Avenue, Staten Island, NY 10310</span>
+                {showAddress ? (
+                  <span className="block text-slate-700 font-semibold">664 Bard Avenue, Staten Island, NY 10310</span>
+                ) : (
+                  <button 
+                    onClick={() => setShowAddress(true)}
+                    className="mt-1 px-4 py-1.5 bg-slate-900 hover:bg-teal-600 text-white rounded-lg text-xs font-semibold transition-all duration-200"
+                  >
+                    Find Us
+                  </button>
+                )}
               </div>
             </div>
 
@@ -31,7 +45,16 @@ export default function Contact() {
               </div>
               <div>
                 <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Phone Contact</span>
-                <a href="tel:9177743519" className="block text-slate-700 font-semibold hover:text-teal-600 transition-colors">(917) 774-3519</a>
+                {showPhone ? (
+                  <a href="tel:9177743519" className="block text-slate-700 font-semibold hover:text-teal-600 transition-colors">(917) 774-3519</a>
+                ) : (
+                  <button 
+                    onClick={() => setShowPhone(true)}
+                    className="mt-1 px-4 py-1.5 bg-slate-900 hover:bg-teal-600 text-white rounded-lg text-xs font-semibold transition-all duration-200"
+                  >
+                    Call
+                  </button>
+                )}
               </div>
             </div>
 
@@ -41,7 +64,16 @@ export default function Contact() {
               </div>
               <div>
                 <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider">Email Correspondence</span>
-                <a href="mailto:info@curativecommunication.com" className="block text-slate-700 font-semibold hover:text-teal-600 transition-colors">info@curativecommunication.com</a>
+                {showEmail ? (
+                  <a href="mailto:info@curativecommunication.com" className="block text-slate-700 font-semibold hover:text-teal-600 transition-colors">info@curativecommunication.com</a>
+                ) : (
+                  <button 
+                    onClick={() => setShowEmail(true)}
+                    className="mt-1 px-4 py-1.5 bg-slate-900 hover:bg-teal-600 text-white rounded-lg text-xs font-semibold transition-all duration-200"
+                  >
+                    Email
+                  </button>
+                )}
               </div>
             </div>
 
