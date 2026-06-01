@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Left horizontal line -->
+  <line x1="40" y1="250" x2="190" y2="250" stroke="#418591" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Right horizontal line -->
+  <line x1="310" y1="250" x2="460" y2="250" stroke="#418591" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Left face profile -->
+  <path d="M 215,190 C 215,195 210,198 210,203 C 210,208 220,213 220,223 C 220,233 213,238 213,243 C 213,248 221,251 221,256 C 221,261 212,266 212,271 C 212,276 217,280 217,286" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Left soundwaves -->
+  <path d="M 227,223 A 15,15 0 0,1 227,253" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" />
+  <path d="M 231,213 A 25,25 0 0,1 231,263" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" />
+  <path d="M 235,203 A 35,35 0 0,1 235,273" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Right face profile -->
+  <path d="M 285,190 C 285,195 290,198 290,203 C 290,208 280,213 280,223 C 280,233 287,238 287,243 C 287,248 279,251 279,256 C 279,261 288,266 288,271 C 288,276 283,280 283,286" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Right soundwaves -->
+  <path d="M 273,223 A 15,15 0 0,0 273,253" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" />
+  <path d="M 269,213 A 25,25 0 0,0 269,263" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" />
+  <path d="M 265,203 A 35,35 0 0,0 265,273" fill="none" stroke="#418591" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Typography -->
+  <text x="250" y="340" font-family="'Cinzel', 'Playfair Display', serif, sans-serif" font-size="28" fill="#418591" text-anchor="middle" letter-spacing="1">Curative Communication</text>
+  <text x="250" y="385" font-family="'Cinzel', 'Playfair Display', serif, sans-serif" font-size="26" fill="#418591" text-anchor="middle" letter-spacing="2">LLC</text>
+</svg>
