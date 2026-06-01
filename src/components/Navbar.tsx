@@ -24,7 +24,6 @@ export default function Navbar() {
               <span className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">
                 Curative <span className="text-teal-600 font-semibold">Communication</span>
               </span>
-              <span className="block text-[10px] font-mono tracking-wider uppercase text-slate-400">NY Licensed Teletherapy</span>
             </div>
           </Link>
 
