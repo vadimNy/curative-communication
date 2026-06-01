@@ -71,7 +71,7 @@ export default function Contact() {
 
         {/* Right Side: Web3Forms Integrated Intake */}
         <div className="lg:col-span-7 bg-white p-8 sm:p-10 rounded-3xl border border-slate-100 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8">Client Inquiry Form</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">Inquiry</h2>
           
           <form action="https://api.web3forms.com/submit" method="POST" className="space-y-6">
             <input type="hidden" name="access_key" value="00000000-0000-0000-0000-000000000000" />
@@ -91,23 +91,18 @@ export default function Contact() {
             </div>
 
             <div>
+              <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Phone Number</label>
+              <input type="tel" name="phone" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-teal-500 transition-all" placeholder="e.g., (555) 000-0000" />
+            </div>
+
+            <div>
               <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Email Address</label>
               <input required type="email" name="email" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-teal-500 transition-all" />
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Primary Area of Interest</label>
-              <select name="service_type" className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-teal-500 transition-all">
-                <option value="pediatric">Pediatric Evaluation or Therapy</option>
-                <option value="adult">Adult Cognitive & Speech Therapy</option>
-                <option value="accent_mod">Accent Modification / Professional Voice</option>
-                <option value="other">General Questions</option>
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Message & Communication Goals</label>
-              <textarea required name="message" rows={4} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-teal-500 transition-all" placeholder="Tell us about speech-language development, diagnostic history, or adult recovery targets..." />
+              <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Leave Us A Message</label>
+              <textarea required name="message" rows={4} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-teal-500 transition-all" />
             </div>
 
             <button type="submit" className="w-full bg-slate-900 text-white rounded-xl py-4 font-bold hover:bg-teal-600 transition-all duration-300 shadow-md">

@@ -15,7 +15,7 @@ export default function Footer() {
           
           <div className="flex items-center space-x-2 text-xs text-slate-400">
             <ShieldCheck className="h-4 w-4 text-teal-600" />
-            <span>Standard HIPAA & NYS Licensure Assured</span>
+            <span>NYS Licensed, Nationally Accredited & Fully HIPAA Compliant</span>
           </div>
         </div>
         
