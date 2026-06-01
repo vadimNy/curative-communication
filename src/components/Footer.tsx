@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center space-x-3">
-            <img src="/logo.png" className="h-12 w-12 object-contain" alt="Curative Communication Logo" />
+            <img src="logo.png" className="h-12 w-12 object-contain" alt="Curative Communication Logo" />
             <div>
               <span className="text-md font-bold tracking-tight text-slate-900">Curative <span className="text-teal-600">Communication</span> LLC</span>
               <span className="block text-[11px] text-slate-400 mt-0.5">Providing remote, evidence-based speech-language therapies across NY State.</span>

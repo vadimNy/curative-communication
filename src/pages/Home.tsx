@@ -12,10 +12,10 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 relative">
         <div className="text-center max-w-4xl mx-auto animate-fadeIn">
           
-          {/* Hero Logo Graphic - Cropped whitespace gap using scaling & negative margins, and significantly enlarged */}
+          {/* Hero Logo Graphic - relatively referenced and enlarged */}
           <div className="flex justify-center -mt-6 -mb-10 sm:-mb-16 overflow-hidden">
             <img 
-              src="/logo.png" 
+              src="logo.png" 
               className="h-[28rem] w-[28rem] sm:h-[36rem] sm:w-[36rem] object-contain scale-125 sm:scale-135 hover:scale-140 transition-transform duration-300" 
               alt="Curative Communication Logo" 
             />

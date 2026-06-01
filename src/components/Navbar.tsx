@@ -17,9 +17,9 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-24 items-center">
-          {/* Logo - using the original logo.png */}
+          {/* Logo - relatively linked for static site hosting */}
           <Link to="/" className="flex items-center space-x-4 group">
-            <img src="/logo.png" className="h-16 w-16 sm:h-20 sm:w-20 object-contain group-hover:scale-105 transition-transform duration-300" alt="Curative Communication Logo" />
+            <img src="logo.png" className="h-16 w-16 sm:h-20 sm:w-20 object-contain group-hover:scale-105 transition-transform duration-300" alt="Curative Communication Logo" />
             <div>
               <span className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">
                 Curative <span className="text-teal-600 font-semibold">Communication</span>
