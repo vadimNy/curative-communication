@@ -29,7 +29,7 @@ export default function Join() {
                   <option value="speech_therapy">Speech Therapy</option>
                   <option value="occupational_therapy">Occupational Therapy</option>
                   <option value="physical_therapy">Physical Therapy</option>
-                  <option value="aba">ABA</option>
+                  <option value="aba">Applied Behavioral Analysis</option>
                 </select>
               </div>
               <div>
